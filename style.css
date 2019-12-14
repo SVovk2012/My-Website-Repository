@@ -2,6 +2,8 @@ h1 {
   margin-left: 70px;
   text-align: center;
   cursor: w-resize;
+  text-decoration: underline;
+  font-family: "Bookman Old Style";
 }
 
   .block {
