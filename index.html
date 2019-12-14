@@ -58,7 +58,7 @@ It's a good website! &#128522;</p>
     called 'Wolfer.'
   </p>
   
-  <button onclick = "revealMessage(id)">Click here </button>
+  <button onclick = "revealMessage('hiddenMessage')">Click here </button>
   <p id="hiddenMessage" style="display:none"> You are the best! Please check out the <a href="https://www.google.com/search?q=weather" target="_blank" >Weather</a> </p>
     
 </body>
@@ -69,6 +69,8 @@ It's a good website! &#128522;</p>
         alert("Today's date is " + d);
 </script>
 
+
+
 <script>
   function revealMessage(id){
   document.getElementById(id).style.display = "block"
@@ -78,6 +80,19 @@ It's a good website! &#128522;</p>
 
 
 <br>
+
+<script type="text/javascript">  
+function getcube(){  
+var number=document.getElementById("number").value;  
+alert(number*number*number);  
+}  
+</script>  
+<form>  
+Enter No:<input type="text" id="number" name="number"/><br/>  
+<input type="button" value="cube" onclick="getcube()"/>  
+</form>  
+
+
 <br>
 <br>
 
