@@ -2,8 +2,6 @@ h1 {
   margin-left: 10px;
   text-align: center;
   cursor: w-resize;
-  text-decoration: underline;
-  font-family: "Bookman Old Style";
 }
 
   .block {
@@ -15,4 +13,6 @@ h1 {
   font-size: 20px;
   cursor: pointer;
   text-align: center;
+  text-decoration: underline;
+  font-family: "Bookman Old Style";
 }
