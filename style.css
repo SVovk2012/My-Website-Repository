@@ -1,5 +1,7 @@
 h1 {
-  margin-left: 40px;
+  margin-left: 70px;
+  text-align: center;
+  cursor: w-resize;
 }
 
   .block {
@@ -8,7 +10,7 @@ h1 {
   border: none;
   background-color: #4CAF50;
   padding: 14px 28px;
-  font-size: 44px;
+  font-size: 20px;
   cursor: pointer;
   text-align: center;
 }
