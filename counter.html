@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title></title>
+    <script type="text/javascript" sr="./js/script.js">
+    function revealMessage(){
+    document.getElementById("hiddenMessage").style.display='block';
+}
+function countDown(){
+    var curVal= document.getElementById("countDownB").innerHTML;
+    var newVal=0;
+    if(curVal>0){
+    newVal= curVal-1;
+    }else{
+    alert("YOU ARE AWESOME BECAUSE YOU BREAK RULES TO DO WHATS INTERESTING :/] ");
+    }
+    document.getElementById("countDownB").innerHTML=newVal;
+    
+    }
+    
+    
+    </script>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+    <body>
+        <button onclick="revealMessage()">click me</button>
+        <div id="hiddenMessage" style="color:red; display:none;">
+        <p>YOU ARE GOING ON A CRUISE.</p>
+        <p>CLICK THE BUTTON BELOW 10 TIMES</p>
+        <p>IF U EXCEED THAT LIMIT, THEN YOU WILL FACE THE SCARIEST ,FUNNIEST, MOST USED AND DISLIKED WORD. </p>
+        <p>AND UPVOTES DO INSPIRE.</p>
+        <button id="countDownB" onclick="countDown()">10</button>
+      
+        </div>
+        
+        
+        
+    </body>
+</html>
