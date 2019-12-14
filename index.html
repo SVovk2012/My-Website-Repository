@@ -58,7 +58,7 @@ It's a good website! &#128522;</p>
     called 'Wolfer.'
   </p>
   
-  <button onclick = "revealMessage()">Click here </button>
+  <button onclick = "revealMessage(id)">Click here </button>
   <p id="hiddenMessage" style="display:none"> You are the best! Please check out the <a href="https://www.google.com/search?q=weather" target="_blank" >Weather</a> </p>
     
 </body>
@@ -70,8 +70,8 @@ It's a good website! &#128522;</p>
 </script>
 
 <script>
-  function revealMessage(){
-  document.getElementById("hiddenMessage").style.display = "block"
+  function revealMessage(id){
+  document.getElementById(id).style.display = "block"
   }
 </script>
 
